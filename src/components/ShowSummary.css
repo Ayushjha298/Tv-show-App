@@ -1,0 +1,71 @@
+
+.show-summary-container {
+  max-width: 60%;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.show-summary-title {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.show-summary-content {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.show-summary {
+  flex-grow: 1;
+  color: #666;
+  margin-right: 20px;
+}
+
+.booking-form {
+  flex-basis: 100%;
+  margin-top: 20px;
+}
+
+label {
+  display: block;
+  margin-top: 10px;
+  font-size: 16px;
+}
+
+.user-input {
+  width: 100%;
+  padding: 12px;
+  margin-top: 5px;
+  margin-bottom: 15px;
+  border: 1px solid #ced4da;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.user-input.error {
+  border-color: #dc3545;
+}
+
+.error-message {
+  color: #dc3545;
+  font-size: 14px;
+  margin-top: 5px;
+}
+
+.book-button {
+  background-color: #28a745;
+  color: #fff;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+.book-button:hover {
+  background-color: #218838;
+}
